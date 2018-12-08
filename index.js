@@ -14,7 +14,7 @@ import AlbumList from './src/components/AlbumList';
 
 //Create a compontent
 const App = () => (
-  <View>
+  <View style={{ flex: 1}}>
     <Header headerText={'Songs'} />
     <AlbumList />
   </View>
